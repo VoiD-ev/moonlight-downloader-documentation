@@ -17,7 +17,7 @@ Usage of the API is pretty simple. Usually the workflow would be:
 <br />
 
 > [!NOTE]
-> The processing and streaming the actual media from the server was seperated into two different steps, in order to support downloading playlists or posts with multiple videos/images.
+> The processing and streaming the actual media from the server was seperated into two different steps, in order for the API to support downloading playlists or posts with multiple videos/images.
 
 <br />
 
