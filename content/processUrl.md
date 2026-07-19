@@ -61,7 +61,7 @@ GET /process
   "success": true,
   "error": null,
   "code": 200,
-  "result": [
+  "results": [
     {
         "id": "xc8XRl-6V68",
         "type": "video"

@@ -53,24 +53,28 @@ GET /meta
   "success": true,
   "error": null,
   "code": 200,
-  "result": {
-    "thumbnail": "https://example-site.com/path/to/thumbnail/thumbnail-image.png",
-    "title": "This amazing video will warm your heart!",
-    "description": "hello! today i'm going to show you the most awesome video ever! follow for more...",
-    "formats": [
-      {
-        "id": 137,
-        "info": "720p",
-        "resolution": "1280x720",
-        "audio-channels": 1
-      },
-      {
-        "id": 138,
-        "info": "1080p",
-        "resolution": "1920x1080",
-        "audio-channels": 1
-      }
-    ]
-  }
+  "results": [
+    {
+      "thumbnail": "https://example-site.com/path/to/thumbnail/thumbnail-image.png",
+      "title": "This amazing video will warm your heart!",
+      "description": "hello! today i'm going to show you the most awesome video ever! follow for more...",
+      "formats": [
+        {
+          "id": 137,
+          "info": "720p",
+          "width": 1280,
+          "height": 720,
+          "audio-channels": 1
+        },
+        {
+          "id": 138,
+          "info": "1080p",
+          "width": 1920,
+          "height": 1080,
+          "audio-channels": 1
+        }
+      ]
+    }
+  ]
 }
 ```

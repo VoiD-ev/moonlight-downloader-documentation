@@ -44,6 +44,6 @@ GET /media/{id}
   "success": false,
   "error": "This file doesn't exist on the server.",
   "code": 404,
-  "result": []
+  "results": []
 }
 ```
