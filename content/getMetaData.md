@@ -48,6 +48,10 @@ GET /meta
 <br />
 
 ## RESPONSE EXAMPLE
+> [!NOTE]
+> Entries are empty as long as the requested metadata is not a playlist.
+> However if the requested metadata IS a playlist, the result will be the metadata of the playlist itself and the entries will be filled in with the metadata of the individual videos.
+<br />
 ```json
 {
   "success": true,
@@ -74,7 +78,8 @@ GET /meta
           "height": 1080,
           "audio-channels": 1
         }
-      ]
+      ],
+      "entries": []
     }
   ]
 }
