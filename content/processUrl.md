@@ -64,11 +64,13 @@ GET /process
   "results": [
     {
         "id": "xc8XRl-6V68",
-        "type": "video"
+        "url": "https://api.moonlight-downloader.ir/media/xc8XRl-6V68",
+        "type": "mp4"
     },
     {
         "id": "DaqHYGTR7qB",
-        "type": "image"
+        "url": "https://api.moonlight-downloader.ir/media/DaqHYGTR7qB",
+        "type": "png"
     }
   ]
 }
