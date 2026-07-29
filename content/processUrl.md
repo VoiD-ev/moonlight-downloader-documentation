@@ -50,7 +50,7 @@ GET /process
 ![#00ff00](https://placehold.co/15x15/00ff00/00ff00.png) 201 - Created <br />
 ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) 400 - Bad Request <br />
 ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) 401 - Unauthorized <br />
-![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) 403 - Forbidden (file exceeded size limit) <br />
+![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) 403 - Forbidden (file exceeded server memory) <br />
 ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) 422 - Unprocessable Content <br />
 ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) 429 - Too Many Requests <br />
 <br />
