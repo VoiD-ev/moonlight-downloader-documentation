@@ -52,6 +52,7 @@ GET /meta
 > Entries are empty as long as the requested metadata is not a playlist.
 > However if the requested metadata IS a playlist, the result will be the metadata of the playlist itself and the entries will be filled in with the metadata of the individual videos.
 <br />
+
 ```json
 {
   "success": true,
